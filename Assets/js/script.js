@@ -21,11 +21,13 @@ function getdata(){
 })
 }
 function renderCurrentWeather(city,weather) {
-    const temp = weather.list[0].temp.speed;
+    const temp = weather.list[0].main.temp;
     const wind = weather.list[0].wind.speed;
-    const humid = weather.list[0].humid.speed;
-    const icon = weather.list[0].icon.speed;
+    const humid = weather.list[0].main.humidity;
+    const icon = weather.list[0].icon;
+    const iconURL =`https://openweathermap.org/img/wn/${icon}.png`;
     console.log(weather.list[0].main.speed);
+    console.log(iconURL);
 }
 
 searchButton.addEventListener(`click`,getdata);
