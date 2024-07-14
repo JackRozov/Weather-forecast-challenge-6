@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forecast Data</title>
 </head>
+
 <body>
-    <input type="text" id="searchinput">
-    <button type="submit" id="searchButton">submit</button>
-    <duv id="container"></duv>
-    <script src="./Assets/js/script.js"></script>
+  <div class="container">
+    <h1>Weekly Forecast</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter city name">
+      <button id="searchButton">Search</button>
+    </div>
+    <div id="container" class="current-weather">
+    </div>
+    <div id="forecastContainer" class="forecast">
+    </div>
+    <div id="cityNameButtonContainer" class="search-history">
+    </div>
+  </div>
+  <script src="./Assets/js/script.js"></script>
 </body>
 </html>
