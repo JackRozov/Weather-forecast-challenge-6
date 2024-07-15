@@ -2,5 +2,48 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #534b4b;
 }
+h1{
+    background-color: yellow;
+    text-align: center;
+}
+#container {
+    background: navy;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    list-style: lower-alpha;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    
+}
+
+
+.search-history{
+    background-color: yellow; 
+    color: rgb(38, 226, 38);
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  
+}
+.forecast{
+    background: navy;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+

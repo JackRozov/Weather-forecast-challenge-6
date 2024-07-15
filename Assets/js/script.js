@@ -135,3 +135,5 @@ function renderSearchHistoryButtons() {
 
 
 renderSearchHistoryButtons();
+
+
